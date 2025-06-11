@@ -82,6 +82,7 @@
             // 
             txtsenha.Location = new Point(414, 213);
             txtsenha.Name = "txtsenha";
+            txtsenha.PasswordChar = '*';
             txtsenha.Size = new Size(100, 23);
             txtsenha.TabIndex = 4;
             // 
@@ -93,6 +94,7 @@
             btnlogin.TabIndex = 5;
             btnlogin.Text = "login";
             btnlogin.UseVisualStyleBackColor = true;
+            btnlogin.Click += btnlogin_Click;
             // 
             // Form1
             // 
